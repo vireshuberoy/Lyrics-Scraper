@@ -4,7 +4,7 @@ import time
 from bs4 import BeautifulSoup
 import re
 
-url = "http://www.metrolyrics.com/my-mom-lyrics-eminem.html"
+url = "http://www.metrolyrics.com/my-mom-lyrics-eminem.html" // enter the url of the lyrics
 response = requests.get(url)
 
 soup = BeautifulSoup(response.text, "html.parser")
